@@ -12,7 +12,7 @@ while i < n: i *=2
 if i > n :
     i = i // 2
 
-
+# Generate binary digits based on the base 10 value of n.
 while i > 0:
     if i <= n:
         print('1',end="")
